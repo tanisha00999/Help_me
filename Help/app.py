@@ -60,7 +60,7 @@ for problem in problems:
         <div class="problem-card">
             <h3>{title}</h3>
             <p>{description}</p>
-            <p>Prayers: {prayers}</p>
+            <p>Prayers: {prayers} Mala</p>
             <button class="pray-button" onclick="window.location.href='/pray?problem_id={problem_id}'">Pray for "{title}". Donate 1 Raam Naam Mala (108)</button>
         </div>
     ''', unsafe_allow_html=True)
